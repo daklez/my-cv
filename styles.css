@@ -1,0 +1,195 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.document-format {
+  height: 1190px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: black;
+}
+
+.leftside {
+  width: 34%;
+  height: 100%;
+  background-color: rgb(75, 18, 18);
+  float: left;
+  color: white;
+}
+
+#profile-picture {
+  height: 300px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.contacto {
+  height: 40%;
+}
+
+.contact-icons {
+  color: rgb(75, 18, 18);
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.datos {
+  margin: 0 0 0 5%;
+  padding: 0;
+  width: 60%;
+}
+
+.icons-space {
+  width: 30%;
+  margin: 0 0 20px 0;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.skill-bar-background {
+  height: 10px;
+  width: 130px;
+  background-color: rgb(48, 12, 12);
+  border-radius: 10px;
+}
+
+.skill-bar {
+  height: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#skill-bar-paginas-interactivas,
+#skill-bar-interfaces-interactivas,
+#skill-bar-HTML-CSS {
+  width: 90%;
+}
+
+#skill-bar-diseño-web,
+#skill-bar-JS {
+  width: 85%;
+}
+
+#skill-bar-bases-de-datos,
+#skill-bar-firebase {
+  width: 80%;
+}
+
+#skill-bar-react {
+  width: 100%;
+}
+
+#hobbies-div {
+  text-align: center;
+}
+
+.hobbie-box {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  margin: 5px;
+  display: inline-flex;
+  border-radius: 5px;
+}
+
+.hobbies-icons {
+  font-size: 35px;
+  color: rgb(75, 18, 18);
+  margin: auto;
+}
+
+.flex {
+  display: inline-flex;
+}
+
+a {
+  color: rgb(243, 73, 73);
+}
+
+a:hover {
+  color: white;
+}
+
+h2,
+h1,
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+#nombre {
+  color: rgb(75, 18, 18);
+  margin-bottom: 0;
+  font-size: 4rem;
+}
+#apellido {
+  font-size: 5rem;
+  margin-top: 0;
+}
+
+.nombres {
+  width: 70%;
+  height: 170px;
+}
+
+.profession {
+  color: rgb(75, 18, 18);
+  border: 1x solid black;
+  text-align: left;
+  margin: 20px 0 0 20px;
+}
+
+.parrafo {
+  border: 1x solid;
+  margin: 5px 0 30px 0;
+}
+
+.RSTD {
+  background-color: rgb(75, 18, 18);
+  color: white;
+  padding: 0 30px 10px 30px;
+  border-radius: 15px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.right-side-titles {
+  text-align: left;
+  margin: 20px;
+}
+
+.rightside {
+  height: 100%;
+  width: 55%;
+  float: left;
+  background-color: floralwhite;
+  padding-right: 50px;
+}
+
+.rightside-left-margin {
+  margin-left: 20px;
+}
+
+.rightside-tables {
+  margin: 0 20px;
+}
+
+.center {
+  margin-left: 45%;
+}
+
+.rightside-td {
+  width: 10px;
+  text-align: center;
+  display: inline-flex;
+  margin-right: 100px;
+}

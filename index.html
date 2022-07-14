@@ -5,103 +5,207 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Jose Akle</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script
+      src="https://kit.fontawesome.com/3cb0e18d54.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <h1>Hoja de Vida</h1>
-    <h2>Informacion General:</h2>
-    <h3>Nombre:</h3>
-    <p>Jose David</p>
-    <h3>Apellidos:</h3>
-    <p>Akle Zerda</p>
-    <h3>Email:</h3>
-    <p>deltaapha94@hotmail.com</p>
-    <h3>Telefono</h3>
-    <p>+57 3004207328</p>
-    <h3>Ubicacion Actual:</h3>
-    <p>Bogota, Colombia</p>
-    <h3>GitHub:</h3>
-    <a href="https://github.com/daklez">Perfil de GitHub</a>
-    <h3>LinkedIn:</h3>
-    <a href="https://www.linkedin.com/in/jose-akle-561341167/"
-      >Perfil de LinkedIn</a
-    >
-    <h2>Experiencia:</h2>
-    <ul>
-      <li>
-        <strong>Empresa: </strong>Habi
-        <ul>
-          <li><strong>Cargo: </strong> Jr Front-End Developer</li>
-          <li><strong>Tiempo: </strong> Ene/2023-Dic-2024</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Empresa: </strong>Vass
-        <ul>
-          <li><strong>Cargo: </strong> Semi-Senior Front-End Developer</li>
-          <li><strong>Tiempo: </strong> Ene/2025-Actualidad</li>
-        </ul>
-      </li>
-    </ul>
-    <h2>Habilidades Tecnicas:</h2>
-    <table>
-      <tr>
-        <th>Tecnologia</th>
-        <th>Descripcion</th>
-      </tr>
-      <tr>
-        <td>JavaScript</td>
-        <td>Añadir caracteristicas interactivas a sitios Web</td>
-      </tr>
-      <tr>
-        <td>HTML/css</td>
-        <td>Estructuracion, despliegue y diseño de sitios Web</td>
-      </tr>
-      <tr>
-        <td>React</td>
-        <td>Creacion de interfaces de usuario interactivas</td>
-      </tr>
-      <tr>
-        <td>Firebase</td>
-        <td>Conexion de aplicaciones con bases de datos</td>
-      </tr>
-    </table>
-    <h2>Intereses:</h2>
-    <table>
-      <tr>
-        <th>Nombre</th>
-        <th>Descripcion</th>
-      </tr>
-      <tr>
-        <td>Inteligencia Artificial</td>
-        <td>
-          Analisis de datos con algoritmos para el aprendizaje de patrones o
-          caracteristicas
-        </td>
-      </tr>
-      <tr>
-        <td>Realidad Aumentada</td>
-        <td>
-          Visualizacion del mundo real a traves de dispositivos con informacion
-          grafica añadida por este
-        </td>
-      </tr>
-      <tr>
-        <td>SCRUM</td>
-        <td>
-          Aplicacion de manera regualar de buenas practicas para trabajar en
-          equipo de manera eficiente
-        </td>
-      </tr>
-    </table>
-    <h2>Contacto: </h2>
-    <input type="email" id="email" placeholder="Email" required /><br />
-    <textarea
-      placeholder="Mensaje"
-      id="mensaje"
-      rows="3"
-      cols="30"
-      required
-    ></textarea><br />
-    <input type="submit" value="Contactar"></input>
+    <div class="document-format">
+      <div class="leftside">
+        <img src="Foto-CV.png" alt="profile-picture" id="profile-picture" />
+        <h2>CONTACTO</h2>
+        <div class="icons-space flex">
+          <i class="fa-solid fa-envelope contact-icons"></i>
+        </div>
+        <p class="datos flex">deltaapha94@hotmail.com</p>
+        <div class="icons-space flex">
+          <i class="fa-solid fa-phone contact-icons"></i>
+        </div>
+        <p class="datos flex">+57 3004207328</p>
+        <div class="icons-space flex">
+          <i class="fa-solid fa-location-dot contact-icons"></i>
+        </div>
+        <p class="datos flex">Bogota, Colombia</p>
+        <div class="icons-space flex">
+          <i class="fa-brands fa-github contact-icons"></i>
+        </div>
+        <a href="https://github.com/daklez" class="datos flex"
+          >Perfil de GitHub</a
+        >
+        <div class="icons-space flex">
+          <i class="fa-brands fa-linkedin contact-icons"></i>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/jose-akle-561341167/"
+          class="datos flex"
+          >Perfil de LinkedIn</a
+        >
+        <h2>HABIIDADES</h2>
+        <table>
+          <tr>
+            <td>Paginas Interactivas</td>
+            <td>
+              <div class="skill-bar-background">
+                <div
+                  id="skill-bar-paginas-interactivas"
+                  class="skill-bar"
+                ></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Diseño Web</td>
+            <td>
+              <div class="skill-bar-background">
+                <div id="skill-bar-diseño-web" class="skill-bar"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Interfaces Interactivas</td>
+            <td>
+              <div class="skill-bar-background">
+                 <div id="skill-bar-interfaces-interactivas"class="skill-bar"></div> 
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Bases de Datos</td>
+            <td>
+              <div class="skill-bar-background">
+                <div id="skill-bar-bases-de-datos" class="skill-bar"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th><h2 class="center">TECNOLOGIAS</h2></th>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>
+              <div class="skill-bar-background">
+                <div id="skill-bar-JS" class="skill-bar"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>HTML/CSS</td>
+            <td>
+              <div class="skill-bar-background">
+                <div id="skill-bar-HTML-CSS" class="skill-bar"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>
+              <div class="skill-bar-background">
+                <div id="skill-bar-react" class="skill-bar"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Firebase</td>
+            <td>
+              <div class="skill-bar-background">
+                <div id="skill-bar-firebase" class="skill-bar"></div>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <h2>HOBBIES</h2>
+        <div id="hobbies-div">
+          <div class="hobbie-box">
+            <i class="fa-solid fa-plane hobbies-icons"></i>
+          </div>
+          <div class="hobbie-box">
+            <i class="fa-solid fa-car-side hobbies-icons"></i>
+          </div>
+          <div class="hobbie-box">
+            <i class="fa-solid fa-dumbbell hobbies-icons"></i>
+          </div>
+          <div class="hobbie-box">
+            <i class="fa-solid fa-mug-hot hobbies-icons"></i>
+          </div>
+        </div>
+      </div>
+      <div class="rightside">
+        <div class="nombres">
+          <h1 id="nombre">JOSE</h1>
+          <h1 id="apellido">AKLE</h1>
+        </div>
+        <h3 class="right-side-title profession">FRONT-END DEVELOPER</h3>
+        <p class="rightside-left-margin parrafo">
+          Me considero una persona muy creativa y apasionada por mi trabajo, y
+          siempre estoy dispuesto a afrontar nuevos retos.
+        </p>
+        <h2 class="right-side-titles">
+          <span class="RSTD">INFORMACION PERSONAL</span>
+        </h2>
+        <p class="rightside-left-margin">
+          Desarrollador web front-end apasionado por el diseño y la usabilidad.
+          Con más de 4 años de experiencia en el desarrollo web, me he
+          especializado en el front-end y en la creación de aplicaciones web
+          interactivas. He trabajado con una gran variedad de frameworks y
+          herramientas, y siempre estoy buscando nuevas formas de mejorar mis
+          habilidades.
+        </p>
+        <h2 class="right-side-titles"><span class="RSTD">EDUCACIÓN</span></h2>
+        <table class="rightside-tables">
+          <tr>
+            <td class="rightside-td">2022</td>
+            <td>
+              <strong>Front-End Development</strong><br />ADA School, Online
+            </td>
+          </tr>
+          <tr>
+            <td class="rightside-td">2017</td>
+            <td>
+              <strong>Despacho de Aeronaves</strong><br />Corporacion Educativa
+              Indoamericana, Bogotá
+            </td>
+          </tr>
+          <tr>
+            <td class="rightside-td">2012</td>
+            <td><strong>Aviacion</strong><br />Aeroandes S.A, Bogotá</td>
+          </tr>
+          <tr>
+            <td class="rightside-td">2010</td>
+            <td>
+              <strong>Colegio</strong><br />Colegio Emilio Valenzuela, Bogotá
+            </td>
+          </tr>
+          <tr>
+            <th class="rightside-td">
+              <h2><span class="RSTD">EXPERIENCIA</span></h2>
+            </th>
+          </tr>
+          <tr>
+            <td class="rightside-td">Actualidad</td>
+            <td>
+              <strong>Vass</strong><br />Semi-Sr. Front-End Developer <br />
+              <p>
+                Optimizacion del rendimiento, la calidad y la capacidad de
+                respuesta de las aplicaciones.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="rightside-td">2024</td>
+            <td>
+              <strong>Habi</strong><br />
+              Jr. Front-End Developer <br />
+              <p>
+                Desarrollo, mantenimiento, y mejora de las funcionalidades del
+                producto.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
   </body>
 </html>
